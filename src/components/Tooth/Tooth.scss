@@ -1,0 +1,17 @@
+.Tooth {
+    display: flex;
+    width: 48px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    & span {
+        font-size: 1.4em;
+    }
+}
+
+.Tooth_up {
+    flex-direction: column;
+}
+
+.Tooth_down {
+    flex-direction: column-reverse;
+}
