@@ -18,7 +18,8 @@ export enum ToothType {
 
 export interface IToothProps {
     num : number, //номер зуба
-    type ?: ToothType
+    type ?: ToothType,
+    onClick?: (param : React.MouseEvent<HTMLDivElement, MouseEvent> ) => void
 }
 
 export default function Tooth(props: IToothProps) {
@@ -47,12 +48,12 @@ export default function Tooth(props: IToothProps) {
   }
 
   return (
-    <div className={`Tooth ${props.num <=28 ? 'Tooth_up' : 'Tooth_down'}`}>
+    <div className={`Tooth ${props.num <=28 ? 'Tooth_up' : 'Tooth_down'}`} onClick = {props.onClick}>
         <span>{props.num}</span>
         {/* <ToothImg style={rotated_tooth} /> */}
-        {
-            toothType(props.num)
-        }
+        <div>
+           { toothType(props.num)}
+        </div>
     </div>
   );
 }
