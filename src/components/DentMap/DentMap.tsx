@@ -1,6 +1,6 @@
-import React,{useReducer, useState} from 'react';
+import React,{useEffect, useReducer, useState} from 'react';
 
-import Tooth from "./../Tooth/Tooth";
+import Tooth, { IToothProps } from "./../Tooth/Tooth";
 import {toothData} from "../../lib/tooth_data"
 
 import "./DentMap.scss";
@@ -14,7 +14,8 @@ const changeCurrentTooth=()=>{
 
 export default function DentMap (props: IDentMapProps) {
 
- const [tooths,setTooth] = useState(toothData);
+    
+ const [tooths,setTooth] = useState(localStorage.getItem('tooths') ? JSON.parse(localStorage.getItem('tooths') ?? '') : toothData );
 
  const [curTooth,setCurTooth] = useState<number>(-1);
 
@@ -29,10 +30,14 @@ export default function DentMap (props: IDentMapProps) {
         setCurTooth(index)
  }
 
+  useEffect(()=>{
+      localStorage.setItem('tooths',JSON.stringify(tooths))
+  },[tooths])  
+
   return (
     <div className={"DentMap"} >
         {
-            tooths.map((item,index)=>(
+            tooths.map((item:IToothProps,index:number)=>(
                 <Tooth {...item} key={item.num} onClick={(e)=>handleClick(e,index)} />
             ))
         }     
