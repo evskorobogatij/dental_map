@@ -1,10 +1,12 @@
 import React from 'react'
+import { IToothProps } from './components/Tooth/Tooth';
 
 type ContextProps = {
     currentTooth : number,
-    selectTooth : (num:number)=>void
+    tooths:Array<IToothProps>,
+    selectTooth ?: (num:number)=>void
 }
 
-const ContextTooth = React.createContext<Partial<ContextProps>>({});
+const ContextTooth = React.createContext<ContextProps>({currentTooth:-1,tooths:[]});
 
 export default ContextTooth;
