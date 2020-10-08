@@ -1,6 +1,7 @@
 .Tooth {
     display: flex;
     width: 48px;
+    height: 82px;
     padding: 4px;
     margin: 8px;
     & span {
@@ -13,6 +14,14 @@
     border-color: #2620df;
     border-style: solid;
     border-radius: 8px;
+}
+
+.Tooth_caries {
+    fill: darkred;
+}
+
+.Tooth_caries_plomb {
+    fill: darkgreen;
 }
 
 .Tooth_up {
