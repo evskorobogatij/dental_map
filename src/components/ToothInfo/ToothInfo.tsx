@@ -24,12 +24,14 @@ function ToothInfo() {
         <div className={'ToothInfo'}>
             <p>{ currentTooth>=0 ? `Зуб № ${tooths[currentTooth].num}` : 'Зуб не выбран' } </p>    
             {
+                currentTooth>=0 ?
                 toothStatuses.map((item,index)=>(
                     <label key={index}>
                         <input type="radio" value={item.value} checked={ currentTooth>=0 ? tooths[currentTooth].status===item.value : false} onChange={toothStatusChange?.bind(null,currentTooth,item.value)}  /> 
                         {item.title}
                     </label>
                 ))
+                : ''
             }       
         </div>    
     )    
