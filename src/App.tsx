@@ -29,12 +29,15 @@ function App() {
   },[tooths])  
 
   return (
-    <ContextTooth.Provider value={{currentTooth:current,selectTooth,tooths,toothStatusChange}} >
-      <div className="Block">
-        <DentMap />
-        <ToothInfo /> 
-      </div>
-    </ContextTooth.Provider>
+    <>
+      <h1 style={{textAlign:'center'}}>Зубная карта</h1>
+      <ContextTooth.Provider value={{currentTooth:current,selectTooth,tooths,toothStatusChange}} >
+        <div className="Block">
+          <DentMap />
+          <ToothInfo /> 
+        </div>
+      </ContextTooth.Provider>
+    </>
 
   );
 }
