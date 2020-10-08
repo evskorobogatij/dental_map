@@ -1,12 +1,18 @@
 .Tooth {
     display: flex;
     width: 48px;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    padding: 4px;
+    margin: 8px;
     & span {
         font-size: 1.4em;
         text-align: center;
     }
+}
+
+.Tooth_seleted {
+    border-color: #2620df;
+    border-style: solid;
+    border-radius: 8px;
 }
 
 .Tooth_up {
