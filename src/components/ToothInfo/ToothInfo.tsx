@@ -26,9 +26,10 @@ function ToothInfo() {
             {
                 currentTooth>=0 ?
                 toothStatuses.map((item,index)=>(
-                    <label key={index}>
+                    
+                    <label key={index} className="radio">
                         <input type="radio" value={item.value} checked={ currentTooth>=0 ? tooths[currentTooth].status===item.value : false} onChange={toothStatusChange?.bind(null,currentTooth,item.value)}  /> 
-                        {item.title}
+                        <div className="radio__text">{item.title}</div>
                     </label>
                 ))
                 : ''
