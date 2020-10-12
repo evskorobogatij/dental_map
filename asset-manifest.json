@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/dental_map/static/css/main.9c61b06e.chunk.css",
-    "main.js": "/dental_map/static/js/main.e707f6ad.chunk.js",
-    "main.js.map": "/dental_map/static/js/main.e707f6ad.chunk.js.map",
+    "main.js": "/dental_map/static/js/main.64d31a00.chunk.js",
+    "main.js.map": "/dental_map/static/js/main.64d31a00.chunk.js.map",
     "runtime-main.js": "/dental_map/static/js/runtime-main.54857105.js",
     "runtime-main.js.map": "/dental_map/static/js/runtime-main.54857105.js.map",
     "static/js/2.20187bea.chunk.js": "/dental_map/static/js/2.20187bea.chunk.js",
     "static/js/2.20187bea.chunk.js.map": "/dental_map/static/js/2.20187bea.chunk.js.map",
     "index.html": "/dental_map/index.html",
-    "precache-manifest.ee2f6373ea4dbe2d4bb3f03d84395b5b.js": "/dental_map/precache-manifest.ee2f6373ea4dbe2d4bb3f03d84395b5b.js",
+    "precache-manifest.e11b16b5af7c6ba5c438a157e76b288e.js": "/dental_map/precache-manifest.e11b16b5af7c6ba5c438a157e76b288e.js",
     "service-worker.js": "/dental_map/service-worker.js",
     "static/css/main.9c61b06e.chunk.css.map": "/dental_map/static/css/main.9c61b06e.chunk.css.map",
     "static/js/2.20187bea.chunk.js.LICENSE.txt": "/dental_map/static/js/2.20187bea.chunk.js.LICENSE.txt",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.54857105.js",
     "static/js/2.20187bea.chunk.js",
     "static/css/main.9c61b06e.chunk.css",
-    "static/js/main.e707f6ad.chunk.js"
+    "static/js/main.64d31a00.chunk.js"
   ]
 }

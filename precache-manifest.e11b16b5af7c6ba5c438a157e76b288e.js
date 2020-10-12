@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b6c5a743faae27b6b9c9602cf0c39537",
+    "revision": "9f2747b572d0a2ab1d08ca443044689f",
     "url": "/dental_map/index.html"
   },
   {
-    "revision": "3c0c80e0ec6d1dcc6c5c",
+    "revision": "a660753d2f48e3f09bea",
     "url": "/dental_map/static/css/main.9c61b06e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dental_map/static/js/2.20187bea.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3c0c80e0ec6d1dcc6c5c",
-    "url": "/dental_map/static/js/main.e707f6ad.chunk.js"
+    "revision": "a660753d2f48e3f09bea",
+    "url": "/dental_map/static/js/main.64d31a00.chunk.js"
   },
   {
     "revision": "b7b3d0e1a8a26feca941",
