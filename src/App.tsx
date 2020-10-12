@@ -19,6 +19,7 @@ function App() {
   const [tooths, setTooth] = useState( isChild ? childTooths : toothData)
 
   useEffect(()=>{
+    setCurrent(-1)
     setTooth(isChild ? childTooths : toothData)
   },[isChild])
 
