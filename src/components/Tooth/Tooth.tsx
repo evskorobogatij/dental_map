@@ -36,7 +36,7 @@ export interface IToothProps {
 
 export default function Tooth(props: IToothProps) {
 
-  const rotated_tooth = props.num <=28 ? {
+  const rotated_tooth = [1,2,5,6].includes(Math.floor(props.num/10)) ? {
       rotate : '180deg'
   } : {}
 
@@ -64,7 +64,12 @@ export default function Tooth(props: IToothProps) {
         if(pos===3)
             return <Canine style={rotated_tooth} className={checkToothHelth(status) } />
         if([4,5].includes(pos)) 
-            return <Premolar style={rotated_tooth} className={checkToothHelth(status)} />
+            if([1,2,3,4].includes(q))
+                return <Premolar style={rotated_tooth} className={checkToothHelth(status)} />
+            if([5,6].includes(q))
+                return <Molar style={rotated_tooth} className={checkToothHelth(status)} />
+            if([7,8].includes(q))    
+                return <ToothImg style={rotated_tooth} className={checkToothHelth(status)} />                
         if([6,7,8].includes(pos)){
             if([1,2].includes(q))
                 return <Molar style={rotated_tooth} className={checkToothHelth(status)} />
@@ -74,7 +79,7 @@ export default function Tooth(props: IToothProps) {
   }
 
   return (
-    <div className={`Tooth ${props.num <=28 ? 'Tooth_up' : 'Tooth_down'}  `} onClick = {props.onClick}>
+    <div className={`Tooth ${[1,2,5,6].includes(Math.floor(props.num/10)) ? 'Tooth_up' : 'Tooth_down'}  `} onClick = {props.onClick}>
         <span>{props.num}</span>
         {/* <ToothImg style={rotated_tooth} /> */}
         <div>

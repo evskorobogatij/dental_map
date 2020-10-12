@@ -37,4 +37,28 @@ const toothData:Array<IToothProps> = [
 
 ]
 
-export {toothData};
+const childTooths:Array<IToothProps> = [
+    {num:55, status:ToothStatus.Normal },
+    {num:54, status:ToothStatus.Normal },
+    {num:53, status:ToothStatus.Normal },
+    {num:52, status:ToothStatus.Normal },
+    {num:51, status:ToothStatus.Normal },
+    {num:61, status:ToothStatus.Normal },
+    {num:62, status:ToothStatus.Normal },
+    {num:63, status:ToothStatus.Normal },
+    {num:64, status:ToothStatus.Normal },
+    {num:65, status:ToothStatus.Normal },
+
+    {num:85, status:ToothStatus.Normal },
+    {num:84, status:ToothStatus.Normal },
+    {num:83, status:ToothStatus.Normal },
+    {num:82, status:ToothStatus.Normal },
+    {num:81, status:ToothStatus.Normal },
+    {num:71, status:ToothStatus.Normal },
+    {num:72, status:ToothStatus.Normal },
+    {num:73, status:ToothStatus.Normal },
+    {num:74, status:ToothStatus.Normal },
+    {num:75, status:ToothStatus.Normal }
+]
+
+export {toothData, childTooths};

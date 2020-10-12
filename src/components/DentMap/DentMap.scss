@@ -1,11 +1,19 @@
 
 .DentMap {
     display: grid;
-    grid-template-columns: repeat(16,48px);
+    // grid-template-columns: repeat(16,48px);
     justify-content: center;
     padding: 16px;
     align-items: center;
     justify-items: center;
     grid-row-gap: 24px;
     grid-column-gap: 12px;
+}
+
+.DentMap_child {
+    grid-template-columns: repeat(10,48px);
+}
+
+.DentMap_vz {
+    grid-template-columns: repeat(16,48px);
 }

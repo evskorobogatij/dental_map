@@ -5,7 +5,10 @@ type ContextProps = {
     currentTooth : number,
     tooths:Array<IToothProps>,
     selectTooth ?: (num:number)=>void,
-    toothStatusChange ?: (code:number,status:ToothStatus)=>void
+    toothStatusChange ?: (code:number,status:ToothStatus)=>void,
+    isChild ?: boolean,
+    setIsChild?: (isChild : boolean)=>void
+
 }
 
 const ContextTooth = React.createContext<ContextProps>({currentTooth:-1,tooths:[]});
