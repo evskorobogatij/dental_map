@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/dental_map/static/css/main.9c61b06e.chunk.css",
+    "main.js": "/dental_map/static/js/main.12c7ff94.chunk.js",
+    "main.js.map": "/dental_map/static/js/main.12c7ff94.chunk.js.map",
+    "runtime-main.js": "/dental_map/static/js/runtime-main.54857105.js",
+    "runtime-main.js.map": "/dental_map/static/js/runtime-main.54857105.js.map",
+    "static/js/2.20187bea.chunk.js": "/dental_map/static/js/2.20187bea.chunk.js",
+    "static/js/2.20187bea.chunk.js.map": "/dental_map/static/js/2.20187bea.chunk.js.map",
+    "index.html": "/dental_map/index.html",
+    "precache-manifest.e390af7ed32716a7effe71bd6d0ebd96.js": "/dental_map/precache-manifest.e390af7ed32716a7effe71bd6d0ebd96.js",
+    "service-worker.js": "/dental_map/service-worker.js",
+    "static/css/main.9c61b06e.chunk.css.map": "/dental_map/static/css/main.9c61b06e.chunk.css.map",
+    "static/js/2.20187bea.chunk.js.LICENSE.txt": "/dental_map/static/js/2.20187bea.chunk.js.LICENSE.txt",
+    "static/media/canine-tooth.134730e3.svg": "/dental_map/static/media/canine-tooth.134730e3.svg",
+    "static/media/fake-tooth.6bfb5d63.svg": "/dental_map/static/media/fake-tooth.6bfb5d63.svg",
+    "static/media/implant-fixture.5fda534a.svg": "/dental_map/static/media/implant-fixture.5fda534a.svg",
+    "static/media/incisors-tooth.dfad8635.svg": "/dental_map/static/media/incisors-tooth.dfad8635.svg",
+    "static/media/molar-tooth.91da3b99.svg": "/dental_map/static/media/molar-tooth.91da3b99.svg",
+    "static/media/premolar.30cc4deb.svg": "/dental_map/static/media/premolar.30cc4deb.svg",
+    "static/media/tooth.dce879b8.svg": "/dental_map/static/media/tooth.dce879b8.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.54857105.js",
+    "static/js/2.20187bea.chunk.js",
+    "static/css/main.9c61b06e.chunk.css",
+    "static/js/main.12c7ff94.chunk.js"
+  ]
+}
