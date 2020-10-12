@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/dental_map/precache-manifest.e390af7ed32716a7effe71bd6d0ebd96.js"
+  "/dental_map/precache-manifest.ee2f6373ea4dbe2d4bb3f03d84395b5b.js"
 );
 
 self.addEventListener('message', (event) => {
